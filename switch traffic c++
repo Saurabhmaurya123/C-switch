@@ -1,0 +1,19 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+	char a;
+	clrscr();
+	cout<<"enter any character :";
+	cin>>a;
+	switch(a)
+	{
+		case 'R':
+		case 'r':{cout<<"stop";break;}
+		case 'G':
+		case 'g':{cout<<"Ready";break;}
+		case 'Y':
+		case 'y':{cout<<"Go";break;}
+		default :{cout<<"wrong input";}}	
+		getch();}
+	
